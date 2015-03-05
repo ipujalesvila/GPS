@@ -39,8 +39,8 @@ public class MainActivity extends ActionBarActivity {
             loc.getLongitude();
             latitude.setText("Latitude: "+loc.getLatitude());
             lonxitude.setText("Lonxitude: "+loc.getLongitude());
-          //  String coordenadas = "Mis coordenadas son: " + "Latitud = " + loc.getLatitude() + "Longitud = " + loc.getLongitude();
-          //  Toast.makeText(getApplicationContext(), coordenadas, Toast.LENGTH_LONG).show();
+            String coordenadas = "Mis coordenadas son: " + "Latitud = " + loc.getLatitude() + "Longitud = " + loc.getLongitude();
+            Toast.makeText(getApplicationContext(), coordenadas, Toast.LENGTH_LONG).show();
         }
 
         public void onProviderDisabled(String provider) {
